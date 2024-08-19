@@ -51,6 +51,8 @@ def master_function_all(unitid=169798):
 
 if __name__ == "__main__":
 
+    """ Below is an example """ 
+
     Reference.load_institution_data()
     master_function_all(unitid=169798)  # defaults to EMU
 
