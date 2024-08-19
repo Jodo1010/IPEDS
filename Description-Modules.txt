@@ -1,6 +1,5 @@
 """ DESCRIPTION OF MODULES """
 
-
 data_collection_all:
 
     This module contains individual functions that collects all available
