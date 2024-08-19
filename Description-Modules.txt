@@ -20,16 +20,7 @@ master_function_yearly:
     This module calls several functions [TBD] from the data_collection_yearly module and stores the result
     of each function in separate worksheets in a workbook.
 
-institution_mapping:
-
-    This module contains functions that output a dictionary and DataFrame with for all 6,400+ institution names
-    and their unit ids.
-
-    The dictionary is in the following takes a dictionary as values and the key is the institution's name. For
-    example, {'Eastern Michigan University': {STABBR: 'MI', UNITID: 169798} }. A user can create subsets of the data
-    by State.
-
-references:
+references_helper:
 
     This is a helper module to store useful references for the project e.g., MASU dictionary containing unit ids
     and their corresponding institution names.
