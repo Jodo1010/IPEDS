@@ -86,6 +86,8 @@ def master_function_yearly(unitid=169798, years=[2020]):
 
 if __name__ == "__main__":
 
+    """ Below is an example """ 
+
     Reference.load_institution_data()  # Load institution map
 
     master_function_yearly(unitid=169798, years=[2014, 2015, 2016])
